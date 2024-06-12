@@ -23,28 +23,62 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Prerequisites
+​
+- Git: https://git-scm.com/downloads
+- Node.js and npm: https://nodejs.org
+​
+## Getting Started
+​
+1. Go to https://github.com/jesusdavid24/produc-list-frontend.git
+2. The first thing you'll see, is a table with the products stored in the database.
+3. Click on "Add" button. 
+4. Fill in all the fields, then press "Add" button. 
+5. Now that you have your first product added, you can do a couple of things with it.
+6. To edit your product, press the "edit" button on the table and change the fields in the generated form on the right. Press update and voila, your product has been edited. 
+7. To delete your product, just press "delete" button and if you're sure, accept in the generated dialog box. 
+​
+### Developers
+​
+1. Run `git clone https://github.com/Cristianjs93/proyecto-aplicacion-crud` clone to clone this repository
+   
+2. Run `npm install` to install server dependencies.
+​
+3. Create a `.env` file in root directory.
+ 
+4. Define `VITE_API_BASE_URL=http://localhost:3001` as enviroment variable in `.env` file.
+​
+5. Run `npm run dev` to start the development server.
 
-## Get a fresh project
+## Authors 👊
 
-When you're ready, run:
+This project was created by [jesusdavid24](https://github.com/jesusdavid24)## Prerequisites
+​
+- Git: https://git-scm.com/downloads
+- Node.js and npm: https://nodejs.org
+​
+## Getting Started
+​
+1. Go to https://github.com/jesusdavid24/produc-list-frontend.git
+2. The first thing you'll see, is a table with the products stored in the database.
+3. Click on "Add" button. 
+4. Fill in all the fields, then press "Add" button. 
+5. Now that you have your first product added, you can do a couple of things with it.
+6. To edit your product, press the "edit" button on the table and change the fields in the generated form on the right. Press update and voila, your product has been edited. 
+7. To delete your product, just press "delete" button and if you're sure, accept in the generated dialog box. 
+​
+### Developers
+​
+1. Run `git clone https://github.com/jesusdavid24/product-list-app.git` clone to clone this repository
+   
+2. Run `npm install` to install server dependencies.
+​
+3. Create a `.env` file in root directory.
+ 
+4. Define `BASE_URL=http://localhost:3005` as enviroment variable in `.env` file.
+​
+5. Run `npm run dev` to start the development server.
 
-```bash
-npm run reset-project
-```
+## Authors 👊
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project was created by [jesusdavid24](https://github.com/jesusdavid24)
