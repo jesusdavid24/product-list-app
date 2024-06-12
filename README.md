@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+#  Product List app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repository contains a complete CRUD (Create, Read, Update, Delete) application for managing a list of products. The application consists of a REST API built with Node.js and a frontend built with React. The API provides endpoints for handling product data, while the frontend offers a user-friendly interface to interact with this data. Users can add, view, edit, and delete products through the application.
 
 ## Get started
 
