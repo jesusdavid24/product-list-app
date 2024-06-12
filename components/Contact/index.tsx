@@ -29,7 +29,7 @@ const Contact = () => {
           <View style={styles.contactImageInfo}>
             <Text style={styles.contactImageInfoName}>Jesús Bravo</Text>
             <Text style={styles.contactImageInfoEmail}>jdbv2524@gmail.com</Text>
-            <TouchableHighlight underlayColor="transparent" onPress={handleGithubLinkPress}>
+            <TouchableHighlight underlayColor="transparent">
               <Text style={styles.contactImageInfoGithubLink}>jesusdavid24</Text>
             </TouchableHighlight>
           </View>
